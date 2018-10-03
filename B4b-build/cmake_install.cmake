@@ -1,4 +1,4 @@
-# Install script for directory: /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b
+# Install script for directory: /Users/aditi/Phys/hep/B4b
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,7 +33,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/exampleB4b")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/aditi/Phys/hep/B4b-build/exampleB4b")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleB4b" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exampleB4b")
     execute_process(COMMAND /usr/bin/install_name_tool
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/aditi/Phys/hep/B4b-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

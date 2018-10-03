@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/exampleB4b.cc" "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/CMakeFiles/exampleB4b.dir/exampleB4b.cc.o"
-  "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4DetectorConstruction.cc" "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.o"
-  "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4PrimaryGeneratorAction.cc" "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.o"
-  "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bActionInitialization.cc" "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.o"
-  "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bEventAction.cc" "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.o"
-  "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bRunAction.cc" "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.o"
-  "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bRunData.cc" "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.o"
-  "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bSteppingAction.cc" "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/CMakeFiles/exampleB4b.dir/src/B4bSteppingAction.cc.o"
+  "/Users/aditi/Phys/hep/B4b/exampleB4b.cc" "/Users/aditi/Phys/hep/B4b-build/CMakeFiles/exampleB4b.dir/exampleB4b.cc.o"
+  "/Users/aditi/Phys/hep/B4b/src/B4DetectorConstruction.cc" "/Users/aditi/Phys/hep/B4b-build/CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.o"
+  "/Users/aditi/Phys/hep/B4b/src/B4PrimaryGeneratorAction.cc" "/Users/aditi/Phys/hep/B4b-build/CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.o"
+  "/Users/aditi/Phys/hep/B4b/src/B4bActionInitialization.cc" "/Users/aditi/Phys/hep/B4b-build/CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.o"
+  "/Users/aditi/Phys/hep/B4b/src/B4bEventAction.cc" "/Users/aditi/Phys/hep/B4b-build/CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.o"
+  "/Users/aditi/Phys/hep/B4b/src/B4bRunAction.cc" "/Users/aditi/Phys/hep/B4b-build/CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.o"
+  "/Users/aditi/Phys/hep/B4b/src/B4bRunData.cc" "/Users/aditi/Phys/hep/B4b-build/CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.o"
+  "/Users/aditi/Phys/hep/B4b/src/B4bSteppingAction.cc" "/Users/aditi/Phys/hep/B4b-build/CMakeFiles/exampleB4b.dir/src/B4bSteppingAction.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
@@ -172,7 +172,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/Users/aditi/Phys/geant4.10.04/source/visualization/management/include"
   "/Users/aditi/Phys/geant4.10.04/source/visualization/modeling/include"
   "/Users/aditi/Phys/geant4.10.04/source/visualization/OpenGL/include"
-  "/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/include"
+  "/Users/aditi/Phys/hep/B4b/include"
   "/Users/aditi/Phys/geant4.10.04-build/source/externals/zlib"
   )
 

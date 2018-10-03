@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.10.0/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b
+CMAKE_SOURCE_DIR = /Users/aditi/Phys/hep/B4b
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build
+CMAKE_BINARY_DIR = /Users/aditi/Phys/hep/B4b-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/exampleB4b.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/exampleB4b.dir/progress.make
 include CMakeFiles/exampleB4b.dir/flags.make
 
 CMakeFiles/exampleB4b.dir/exampleB4b.cc.o: CMakeFiles/exampleB4b.dir/flags.make
-CMakeFiles/exampleB4b.dir/exampleB4b.cc.o: /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/exampleB4b.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampleB4b.dir/exampleB4b.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB4b.dir/exampleB4b.cc.o -c /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/exampleB4b.cc
+CMakeFiles/exampleB4b.dir/exampleB4b.cc.o: /Users/aditi/Phys/hep/B4b/exampleB4b.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aditi/Phys/hep/B4b-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampleB4b.dir/exampleB4b.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB4b.dir/exampleB4b.cc.o -c /Users/aditi/Phys/hep/B4b/exampleB4b.cc
 
 CMakeFiles/exampleB4b.dir/exampleB4b.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB4b.dir/exampleB4b.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/exampleB4b.cc > CMakeFiles/exampleB4b.dir/exampleB4b.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aditi/Phys/hep/B4b/exampleB4b.cc > CMakeFiles/exampleB4b.dir/exampleB4b.cc.i
 
 CMakeFiles/exampleB4b.dir/exampleB4b.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB4b.dir/exampleB4b.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/exampleB4b.cc -o CMakeFiles/exampleB4b.dir/exampleB4b.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aditi/Phys/hep/B4b/exampleB4b.cc -o CMakeFiles/exampleB4b.dir/exampleB4b.cc.s
 
 CMakeFiles/exampleB4b.dir/exampleB4b.cc.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/exampleB4b.dir/exampleB4b.cc.o.provides.build: CMakeFiles/exampleB4b.
 
 
 CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.o: CMakeFiles/exampleB4b.dir/flags.make
-CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.o: /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4DetectorConstruction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.o -c /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4DetectorConstruction.cc
+CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.o: /Users/aditi/Phys/hep/B4b/src/B4DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aditi/Phys/hep/B4b-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.o -c /Users/aditi/Phys/hep/B4b/src/B4DetectorConstruction.cc
 
 CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4DetectorConstruction.cc > CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aditi/Phys/hep/B4b/src/B4DetectorConstruction.cc > CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.i
 
 CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4DetectorConstruction.cc -o CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aditi/Phys/hep/B4b/src/B4DetectorConstruction.cc -o CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.s
 
 CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/exampleB4b.dir/src/B4DetectorConstruction.cc.o.provides.build: CMakeF
 
 
 CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.o: CMakeFiles/exampleB4b.dir/flags.make
-CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.o: /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4PrimaryGeneratorAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.o -c /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4PrimaryGeneratorAction.cc
+CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.o: /Users/aditi/Phys/hep/B4b/src/B4PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aditi/Phys/hep/B4b-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.o -c /Users/aditi/Phys/hep/B4b/src/B4PrimaryGeneratorAction.cc
 
 CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4PrimaryGeneratorAction.cc > CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aditi/Phys/hep/B4b/src/B4PrimaryGeneratorAction.cc > CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.i
 
 CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4PrimaryGeneratorAction.cc -o CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aditi/Phys/hep/B4b/src/B4PrimaryGeneratorAction.cc -o CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.s
 
 CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/exampleB4b.dir/src/B4PrimaryGeneratorAction.cc.o.provides.build: CMak
 
 
 CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.o: CMakeFiles/exampleB4b.dir/flags.make
-CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.o: /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bActionInitialization.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.o -c /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bActionInitialization.cc
+CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.o: /Users/aditi/Phys/hep/B4b/src/B4bActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aditi/Phys/hep/B4b-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.o -c /Users/aditi/Phys/hep/B4b/src/B4bActionInitialization.cc
 
 CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bActionInitialization.cc > CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aditi/Phys/hep/B4b/src/B4bActionInitialization.cc > CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.i
 
 CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bActionInitialization.cc -o CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aditi/Phys/hep/B4b/src/B4bActionInitialization.cc -o CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.s
 
 CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/exampleB4b.dir/src/B4bActionInitialization.cc.o.provides.build: CMake
 
 
 CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.o: CMakeFiles/exampleB4b.dir/flags.make
-CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.o: /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bEventAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.o -c /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bEventAction.cc
+CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.o: /Users/aditi/Phys/hep/B4b/src/B4bEventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aditi/Phys/hep/B4b-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.o -c /Users/aditi/Phys/hep/B4b/src/B4bEventAction.cc
 
 CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bEventAction.cc > CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aditi/Phys/hep/B4b/src/B4bEventAction.cc > CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.i
 
 CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bEventAction.cc -o CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aditi/Phys/hep/B4b/src/B4bEventAction.cc -o CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.s
 
 CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.o.requires:
 
@@ -178,17 +178,17 @@ CMakeFiles/exampleB4b.dir/src/B4bEventAction.cc.o.provides.build: CMakeFiles/exa
 
 
 CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.o: CMakeFiles/exampleB4b.dir/flags.make
-CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.o: /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bRunAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.o -c /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bRunAction.cc
+CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.o: /Users/aditi/Phys/hep/B4b/src/B4bRunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aditi/Phys/hep/B4b-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.o -c /Users/aditi/Phys/hep/B4b/src/B4bRunAction.cc
 
 CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bRunAction.cc > CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aditi/Phys/hep/B4b/src/B4bRunAction.cc > CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.i
 
 CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bRunAction.cc -o CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aditi/Phys/hep/B4b/src/B4bRunAction.cc -o CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.s
 
 CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.o.requires:
 
@@ -202,17 +202,17 @@ CMakeFiles/exampleB4b.dir/src/B4bRunAction.cc.o.provides.build: CMakeFiles/examp
 
 
 CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.o: CMakeFiles/exampleB4b.dir/flags.make
-CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.o: /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bRunData.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.o -c /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bRunData.cc
+CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.o: /Users/aditi/Phys/hep/B4b/src/B4bRunData.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aditi/Phys/hep/B4b-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.o -c /Users/aditi/Phys/hep/B4b/src/B4bRunData.cc
 
 CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bRunData.cc > CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aditi/Phys/hep/B4b/src/B4bRunData.cc > CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.i
 
 CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bRunData.cc -o CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aditi/Phys/hep/B4b/src/B4bRunData.cc -o CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.s
 
 CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.o.requires:
 
@@ -226,17 +226,17 @@ CMakeFiles/exampleB4b.dir/src/B4bRunData.cc.o.provides.build: CMakeFiles/example
 
 
 CMakeFiles/exampleB4b.dir/src/B4bSteppingAction.cc.o: CMakeFiles/exampleB4b.dir/flags.make
-CMakeFiles/exampleB4b.dir/src/B4bSteppingAction.cc.o: /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bSteppingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/exampleB4b.dir/src/B4bSteppingAction.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB4b.dir/src/B4bSteppingAction.cc.o -c /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bSteppingAction.cc
+CMakeFiles/exampleB4b.dir/src/B4bSteppingAction.cc.o: /Users/aditi/Phys/hep/B4b/src/B4bSteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aditi/Phys/hep/B4b-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/exampleB4b.dir/src/B4bSteppingAction.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exampleB4b.dir/src/B4bSteppingAction.cc.o -c /Users/aditi/Phys/hep/B4b/src/B4bSteppingAction.cc
 
 CMakeFiles/exampleB4b.dir/src/B4bSteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleB4b.dir/src/B4bSteppingAction.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bSteppingAction.cc > CMakeFiles/exampleB4b.dir/src/B4bSteppingAction.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aditi/Phys/hep/B4b/src/B4bSteppingAction.cc > CMakeFiles/exampleB4b.dir/src/B4bSteppingAction.cc.i
 
 CMakeFiles/exampleB4b.dir/src/B4bSteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleB4b.dir/src/B4bSteppingAction.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b/src/B4bSteppingAction.cc -o CMakeFiles/exampleB4b.dir/src/B4bSteppingAction.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aditi/Phys/hep/B4b/src/B4bSteppingAction.cc -o CMakeFiles/exampleB4b.dir/src/B4bSteppingAction.cc.s
 
 CMakeFiles/exampleB4b.dir/src/B4bSteppingAction.cc.o.requires:
 
@@ -312,7 +312,7 @@ exampleB4b: /Users/aditi/Phys/geant4.10.04-build/BuildProducts/lib/libG4intercom
 exampleB4b: /Users/aditi/Phys/geant4.10.04-build/BuildProducts/lib/libG4global.dylib
 exampleB4b: /Users/aditi/Phys/geant4.10.04-build/BuildProducts/lib/libG4clhep.dylib
 exampleB4b: CMakeFiles/exampleB4b.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable exampleB4b"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aditi/Phys/hep/B4b-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable exampleB4b"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exampleB4b.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -336,6 +336,6 @@ CMakeFiles/exampleB4b.dir/clean:
 .PHONY : CMakeFiles/exampleB4b.dir/clean
 
 CMakeFiles/exampleB4b.dir/depend:
-	cd /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build /Users/aditi/Phys/geant4.10.04/examples/basic/B4/B4b-build/CMakeFiles/exampleB4b.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/aditi/Phys/hep/B4b-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aditi/Phys/hep/B4b /Users/aditi/Phys/hep/B4b /Users/aditi/Phys/hep/B4b-build /Users/aditi/Phys/hep/B4b-build /Users/aditi/Phys/hep/B4b-build/CMakeFiles/exampleB4b.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/exampleB4b.dir/depend
 

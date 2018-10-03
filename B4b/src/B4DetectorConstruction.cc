@@ -34,6 +34,7 @@
 #include "G4NistManager.hh"
 
 #include "G4Box.hh"
+#include "G4Orb.hh"
 #include "G4LogicalVolume.hh"
 #include "G4PVPlacement.hh"
 #include "G4PVReplica.hh"
@@ -161,8 +162,10 @@ G4VPhysicalVolume* B4DetectorConstruction::DefineVolumes()
   // Calorimeter
   //  
   auto calorimeterS
-    = new G4Box("Calorimeter",     // its name
-                 calorSizeXY/2, calorSizeXY/2, calorThickness/2); // its size
+    = new G4Orb("Calorimeter",                     //its name
+                 calorSizeXY);                 		//its size
+    // = new G4Box("Calorimeter",     // its name
+    //              calorSizeXY/2, calorSizeXY/2, calorThickness/2); // its size
                          
   auto calorLV
     = new G4LogicalVolume(
